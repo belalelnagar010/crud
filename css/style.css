@@ -1,0 +1,86 @@
+*{
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    
+    background-color: #222;
+    color: #fff;
+    font-family: sans-serif;
+}
+
+.crud{
+    margin: auto;
+    text-transform: uppercase;
+    width: 80%;
+}
+
+input{
+    width: 100%;
+    outline: none;
+    border: none;
+    background-color: #111;
+    height: 30px;
+    margin: 8px;
+    border-radius: 4px;
+    padding: 7px;
+    color: #fff;
+}
+
+input:focus{
+    background-color: #000;
+    transform: scale(1.1);
+}
+
+
+#totle{
+    background-color: #a00d02;
+    padding: 5px 2px;
+    border-radius: 4px;
+}
+
+#totle::before{
+    content: 'totle:';
+}
+
+button{
+    width: 100%;
+    height: 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    background-color: #470053;
+    color: #fff;
+    transition: 0.5s;
+}
+button:hover{
+    background-color: #51025f;
+    letter-spacing: 1px;
+}
+
+.btn-search{
+    justify-content: space-between;
+}
+
+.btn-search button{
+    width: 45%;
+}
+table{
+    width: 100%;
+    text-align: center;
+    margin: 10px 0;
+
+}
+
+table th{
+    text-transform: uppercase;
+}
+th,td{
+    padding: 5px;
+}
+
+#deleteall{
+    margin: 20px 0;
+}
